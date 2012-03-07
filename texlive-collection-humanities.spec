@@ -1,4 +1,4 @@
-# revision 21895
+# revision 25527
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-humanities
 Epoch:		1
-Version:	20120224
+Version:	20120307
 Release:	1
 Summary:	Humanities packages
 Group:		Publishing
@@ -19,6 +19,8 @@ Requires(pre):	texlive-tlpkg
 Requires:	texlive-alnumsec
 Requires:	texlive-arydshln
 Requires:	texlive-bibleref
+Requires:	texlive-bibleref-lds
+Requires:	texlive-bibleref-mouth
 Requires:	texlive-bibleref-parse
 Requires:	texlive-covington
 Requires:	texlive-dramatist
