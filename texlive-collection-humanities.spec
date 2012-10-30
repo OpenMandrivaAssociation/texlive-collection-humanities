@@ -1,4 +1,4 @@
-# revision 27322
+# revision 27922
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-humanities
 Epoch:		1
-Version:	20120810
+Version:	20121030
 Release:	1
 Summary:	Humanities packages
 Group:		Publishing
@@ -27,6 +27,8 @@ Requires:	texlive-dramatist
 Requires:	texlive-ecltree
 Requires:	texlive-edfnotes
 Requires:	texlive-ednotes
+Requires:	texlive-eledform
+Requires:	texlive-eledmac
 Requires:	texlive-gb4e
 Requires:	texlive-gmverse
 Requires:	texlive-jura
