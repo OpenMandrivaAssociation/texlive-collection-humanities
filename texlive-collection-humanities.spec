@@ -1,4 +1,4 @@
-# revision 27922
+# revision 27322
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-humanities
 Epoch:		1
-Version:	20121030
+Version:	20120810
 Release:	1
 Summary:	Humanities packages
 Group:		Publishing
@@ -27,8 +27,6 @@ Requires:	texlive-dramatist
 Requires:	texlive-ecltree
 Requires:	texlive-edfnotes
 Requires:	texlive-ednotes
-Requires:	texlive-eledform
-Requires:	texlive-eledmac
 Requires:	texlive-gb4e
 Requires:	texlive-gmverse
 Requires:	texlive-jura
@@ -72,3 +70,20 @@ humanities, etc.
 %build
 
 %install
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
++ Revision: 813911
+- Update to latest release.
+
+* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120307-1
++ Revision: 783099
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780329
+- Update to latest release.
+- Import texlive-collection-humanities
+- Import texlive-collection-humanities
+
