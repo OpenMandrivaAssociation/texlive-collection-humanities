@@ -1,4 +1,4 @@
-# revision 27322
+# revision 31425
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-humanities
 Epoch:		1
-Version:	20120810
+Version:	20131013
 Release:	1
 Summary:	Humanities packages
 Group:		Publishing
@@ -16,6 +16,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-humani
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-latex
 Requires:	texlive-alnumsec
 Requires:	texlive-arydshln
 Requires:	texlive-bibleref
@@ -24,9 +25,13 @@ Requires:	texlive-bibleref-mouth
 Requires:	texlive-bibleref-parse
 Requires:	texlive-covington
 Requires:	texlive-dramatist
+Requires:	texlive-dvgloss
 Requires:	texlive-ecltree
 Requires:	texlive-edfnotes
 Requires:	texlive-ednotes
+Requires:	texlive-eledform
+Requires:	texlive-eledmac
+Requires:	texlive-expex
 Requires:	texlive-gb4e
 Requires:	texlive-gmverse
 Requires:	texlive-jura
@@ -34,10 +39,12 @@ Requires:	texlive-juraabbrev
 Requires:	texlive-juramisc
 Requires:	texlive-jurarsp
 Requires:	texlive-ledmac
+Requires:	texlive-leipzig
 Requires:	texlive-lexikon
 Requires:	texlive-lineno
 Requires:	texlive-linguex
 Requires:	texlive-liturg
+Requires:	texlive-metrix
 Requires:	texlive-parallel
 Requires:	texlive-parrun
 Requires:	texlive-plari
@@ -51,14 +58,15 @@ Requires:	texlive-rtklage
 Requires:	texlive-screenplay
 Requires:	texlive-sides
 Requires:	texlive-stage
+Requires:	texlive-textglos
+Requires:	texlive-thalie
 Requires:	texlive-tree-dvips
 Requires:	texlive-verse
 Requires:	texlive-xyling
-Requires:	texlive-collection-latex
 
 %description
-Packages for law, linguistics, the social sciences, the
-humanities, etc.
+Packages for law, linguistics, social sciences, humanities,
+etc.
 
 #-----------------------------------------------------------------------
 %files
@@ -70,20 +78,3 @@ humanities, etc.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813911
-- Update to latest release.
-
-* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120307-1
-+ Revision: 783099
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780329
-- Update to latest release.
-- Import texlive-collection-humanities
-- Import texlive-collection-humanities
-
