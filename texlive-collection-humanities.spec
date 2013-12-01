@@ -1,4 +1,4 @@
-# revision 31425
+# revision 31966
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-humanities
 Epoch:		1
-Version:	20131013
+Version:	20131201
 Release:	1
 Summary:	Humanities packages
 Group:		Publishing
@@ -47,6 +47,7 @@ Requires:	texlive-liturg
 Requires:	texlive-metrix
 Requires:	texlive-parallel
 Requires:	texlive-parrun
+Requires:	texlive-phonrule
 Requires:	texlive-plari
 Requires:	texlive-play
 Requires:	texlive-poemscol
