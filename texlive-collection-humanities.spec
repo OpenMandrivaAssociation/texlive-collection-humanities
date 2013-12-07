@@ -7,7 +7,7 @@
 Name:		texlive-collection-humanities
 Epoch:		1
 Version:	20131201
-Release:	4
+Release:	5
 Summary:	Humanities packages
 Group:		Publishing
 URL:		http://tug.org/texlive
