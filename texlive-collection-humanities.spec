@@ -1,4 +1,4 @@
-# revision 31966
+# revision 32323
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-humanities
 Epoch:		1
-Version:	20131201
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	Humanities packages
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -41,6 +41,7 @@ Requires:	texlive-jurarsp
 Requires:	texlive-ledmac
 Requires:	texlive-leipzig
 Requires:	texlive-lexikon
+Requires:	texlive-lexref
 Requires:	texlive-lineno
 Requires:	texlive-linguex
 Requires:	texlive-liturg
