@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-humanities
 Epoch:		1
-Version:	20170921
+Version:	20180303
 Release:	1
 Summary:	Humanities packages
 Group:		Publishing
