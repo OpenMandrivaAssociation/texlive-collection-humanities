@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-humanities
 Epoch:		1
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Humanities packages
 Group:		Publishing
 URL:		http://tug.org/texlive
