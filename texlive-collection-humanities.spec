@@ -1,6 +1,6 @@
 Name:		texlive-collection-humanities
 Epoch:		1
-Version:	64209
+Version:	65216
 Release:	1
 Summary:	Humanities packages
 Group:		Publishing
