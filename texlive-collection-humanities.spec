@@ -1,7 +1,7 @@
 Name:		texlive-collection-humanities
 Epoch:		1
-Version:	65216
-Release:	3
+Version:	67944
+Release:	1
 Summary:	Humanities packages
 Group:		Publishing
 URL:		http://tug.org/texlive
