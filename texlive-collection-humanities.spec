@@ -1,5 +1,5 @@
 %global tl_name collection-humanities
-%global tl_revision 78303
+%global tl_revision 79758
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -42,6 +42,7 @@ Requires:	texlive(lexikon)
 Requires:	texlive(lexref)
 Requires:	texlive(ling-macros)
 Requires:	texlive(linguex)
+Requires:	texlive(linguexx)
 Requires:	texlive(linguistix)
 Requires:	texlive(liturg)
 Requires:	texlive(liturgy-cw)
